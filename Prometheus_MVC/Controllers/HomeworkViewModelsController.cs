@@ -25,6 +25,8 @@ namespace Prometheus_MVC.Controllers
         }
 
         // GET: HomeworkViewModels
+        // testing
+        
         public async Task<IActionResult> Index()
         {
             IEnumerable<HomeworkViewModel> homeworkList = null;
