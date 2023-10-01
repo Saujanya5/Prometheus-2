@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function validateForm() {
+        document.getElementById("l1").style.visibility = "hidden";
+        document.getElementById("l2").style.visibility = "hidden";
+        var z = 0;
+        var x = document.forms["myForm"]["TeacherId"].value;
+        var y = document.forms["myForm"]["Password"].value;
+        if (x.trim() == "") {
+            var x = document.forms["myForm"]["TeacherId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        if (x < 1000 || x > 9999) {
+            var x = document.forms["myForm"]["TeacherId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        if (y.trim() == "" || y.length <= 5) {
+            document.forms["myForm"]["Password"].value = ""
+            document.getElementById("l2").style.visibility = "visible";
+            document.getElementById("l2").innerHTML = "Please enter a valid Password"
+            z = 1;
+        }
+        if (z == 1) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+</script>
+<style>
+    @@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+    body {
+        margin: 0;
+        padding: 0;
+        /* background-color: #ffd662ff;*/
+        font-family: sans-serif;
+        /*background-image: linear-gradient(to bottom right,#b92b27, #1565c0);*/
+        background-color: white;
+    }
+
+    .login-box {
+        padding: 13px 13px;
+        background-color: #E0FFFF;
+        width: 380px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 0px #000;
+    }
+
+        .login-box h1 {
+            transition: all 250ms ease-in-out;
+            float: left;
+            color: #0F2027;
+            margin-left: 10px;
+            font-size: 40px;
+            text-shadow: 1px 1px 8px #000;
+            margin-bottom: 50px;
+            padding: 13px 0;
+        }
+
+            .login-box h1:hover {
+                text-shadow: 0px 0px 0px #000;
+            }
+
+    .textbox {
+        box-shadow: 0px 0px 8px 0px #000;
+        border-radius: 5px;
+        width: 90%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 8px;
+        margin: 8px 11px;
+        border: 2px solid #0F2027;
+        transition: all 250ms ease-in-out;
+    }
+
+        .textbox i {
+            width: 26px;
+            color: #0F2027;
+            float: left;
+            border-right: 2px solid #0F2027;
+        }
+
+        .textbox input::-webkit-outer-spin-button,
+        .textbox input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .textbox input {
+            border: none;
+            outline: none;
+            background: none;
+            color: #0F2027;
+            font-size: 18px;
+            width: 80%;
+            float: left;
+            margin: 0 10px;
+        }
+
+    .btn {
+        width: 90%;
+        background: none;
+        border: 2px solid #0F2027;
+        color: #0F2027;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0px 10px;
+        position: relative;
+        text-transform: uppercase;
+        box-shadow: 0px 0px 8px 0px #000;
+        transition: all 0.5s ease-in-out;
+        border-radius: 5px;
+    }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #0F2027;
+            box-shadow: 0px 0px 0px #000;
+        }
+</style>
+
+
+
+
+<form name="myForm" asp-action="Login" onsubmit="return validateForm()" method="post">
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+
+            <i class="fas fa-user"></i>
+            <input type="number" name="TeacherId" id="TeacherId" placeholder="Teacher ID" autocomplete="off">
+           
+        </div>
+        <label id="l1" style="color:red;visibility:hidden;">Please enter a valid username</label>
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="Password" id="Password" placeholder="Password" autocomplete="off">
+        </div>
+        <label id="l2" style="color:red;visibility:hidden;"> please enter a valid password</label>
+
+        <br>
+
+        <input type="submit" value="LogIn" class="btn" />
+        <br /><br />
+    </div>
+</form>
+@if (ViewBag.Status == "Unsuccessfull")
+{
+    <script>
+        document.getElementById("l1").style.visibility = "visible";
+        document.getElementById("l1").innerHTML = "Please enter valid Credentials"
+
+    </script>
+}
+
+
+@*<form asp-action="Login">
+    <input type="number" name="TeacherId" id="TeacherId" placeholder="Id" class="form-control" width="100" required />
+    <input type="password" name="Password" id="Password" placeholder="Password" class="form-control" width="100" required />
+    <input type="submit" value="LogIn" class="btn btn-primary" />
+</form>*@

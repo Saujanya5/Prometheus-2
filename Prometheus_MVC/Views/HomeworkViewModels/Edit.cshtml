@@ -1,0 +1,65 @@
+﻿@model Prometheus_MVC.Models.HomeworkViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+    }
+</style>
+<h1>Edit Homework</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div class="panel">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="HomeWorkId" />
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Deadline" class="control-label"></label>
+                    <input asp-for="Deadline" class="form-control" />
+                    <span asp-validation-for="Deadline" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ReqTime" class="control-label"></label>
+                    <input asp-for="ReqTime" class="form-control" />
+                    <span asp-validation-for="ReqTime" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LongDescription" class="control-label"></label>
+                    <input asp-for="LongDescription" class="form-control" />
+                    <span asp-validation-for="LongDescription" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (ViewBag.Status == "Success")
+{
+    <h6 style="color:green"> Successfull</h6>
+}
+else if (ViewBag.Status == "Unsuccessfull")
+{
+    <h6 style="color:Red"> Something Went Wrong, please try again later</h6>
+}
+<div>
+    <a href="javascript:history.back()">Go Back </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

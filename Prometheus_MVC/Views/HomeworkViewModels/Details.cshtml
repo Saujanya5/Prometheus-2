@@ -1,0 +1,128 @@
+﻿@model Prometheus_MVC.Models.HomeworkViewModel
+
+@{ ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+<style>
+    .wrap {
+        align-self: center;
+        margin: 50px auto 0 auto;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1500px;
+    }
+
+    .tile {
+        
+        margin: 10px;
+        background-color: #99aeff;
+        background-image: linear-gradient(to bottom right,#0F2027, #2C5364);
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+        overflow: hidden;
+        color: white;
+        font-family: 'Roboto';
+    }
+
+        .tile:hover {
+            /*   background-color:#99aeff; */
+            box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+            transform: scale(1.05);
+        }
+
+            .tile:hover img {
+                opacity: 0.2;
+            }
+
+    table th, table td {
+        text-align: center;
+    }
+
+    th {
+        background-color: #203A43;
+        color: #fff;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #3b6473;
+        color: #fff;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #fff;
+        color: #203A43;
+    }
+</style>
+
+<h1>Homework Details</h1>
+<div class="wrap">
+    <div class="tile">
+        <h4>Details for homework ID: @Model.HomeWorkId</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Deadline)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Deadline)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReqTime)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReqTime)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.LongDescription)
+            </dt>
+            <br />
+            <dd class="col-sm-10" style="left">
+                @Html.DisplayFor(model => model.LongDescription)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+            <dd class="col-sm-10">
+                @{string status = ""; }
+                @if (Convert.ToBoolean(Model.Status))
+                {
+                    status = "Active";
+                }
+                else { status = "Inactive"; }
+                @status
+            </dd>
+            <dt class="col-sm-2">
+                CourseID
+            </dt>
+            <dd class="col-sm-10">
+                @{int courseId=0; }
+                @foreach (var item in Model.Assignment)
+                {
+                   courseId = Convert.ToInt32(item.CourseId);
+                }
+                @courseId
+                </dd>
+        </dl>
+    </div>
+    
+</div>
+<div>
+    <a href="javascript:history.back()">Go Back </a>
+</div>
+
+
+

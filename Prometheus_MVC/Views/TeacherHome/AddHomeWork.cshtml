@@ -1,0 +1,249 @@
+﻿@using Prometheus_MVC.Models;
+@*@model List<Prometheus_MVC.Models.CourseViewModel>, Prometheus_MVC.Models.HomeworkViewModel*@
+@model Prometheus_MVC.Models.HomeworkViewModel
+@{
+    ViewData["Title"] = "Add Homework";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+
+    table th, table td {
+        text-align: center;
+    }
+
+    th {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        overflow: hidden;
+        width:40%;
+    }
+    .wrap {
+        align-self: center;
+        margin: 50px auto 0 auto;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1200px;
+    }
+
+
+
+</style>
+<script>
+    function validateForm() {
+        console.log("here")
+        document.getElementById("l1").style.visibility = "hidden";
+        document.getElementById("lblDescription").style.visibility = "hidden";
+        document.getElementById("lblLongDescription").style.visibility = "hidden";
+        document.getElementById("lblReqTime").style.visibility = "hidden";
+
+        var x = document.forms["myForm"]["CourseId"].value;
+        var description = document.getElementById("Description").value;
+        var longDescription = document.getElementById("LongDescription").value;
+        var requiredTime = document.getElementById("ReqTime").value;
+        //var deadline = document.getElementById("Deadline").value;        
+        if (description.trim() == "") {
+            
+            document.getElementById("lblDescription").style.visibility = "visible";
+            document.getElementById("lblDescription").innerHTML = "Please enter a valid Description"
+            z = 1;
+        }
+        if (longDescription.trim() == "") {
+           
+            document.getElementById("lblLongDescription").style.visibility = "visible";
+            document.getElementById("lblLongDescription").innerHTML = "Please enter a valid Long description"
+            z = 1;
+        }
+        if (x.trim() == "") {            
+            document.getElementById("lblReqTime").style.visibility = "visible";
+            document.getElementById("lblReqTime").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        if (requiredTime.trim() == "") {
+           
+            document.getElementById("lblReqTime").style.visibility = "visible";
+            document.getElementById("lblReqTime").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }        
+        if (x < 2000 || x > 9999) {
+            var x = document.forms["myForm"]["CourseId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        if (z == 1) {
+            return false;
+        }
+        z = 1;
+        for (let i = 0; i < document.getElementById("myTable").rows.length; i++) {
+            console.log(i);
+            console.log(x);
+            console.log(document.getElementById("myTable").rows[i].cells[0].innerHTML.trim());
+            if (x == document.getElementById("myTable").rows[i].cells[0].innerHTML.trim()) {
+                z = 0;
+                console.log("inside if");
+                break;
+            }
+            else {
+                document.getElementById("l1").style.visibility = "visible";
+                document.getElementById("l1").innerHTML = "Enter valid available course";
+                console.log("inside else");
+            }
+
+        }
+        if (z == 1) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+
+</script>
+<h1>Add Homework</h1>
+
+@if (ViewBag.Status == "Successfull")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/TeacherHome';
+        }, 2000);</script>
+    <h1 style="color:green">Successfull</h1>
+    ;
+}
+else if (ViewBag.Status == "Unsuccessfull")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/StudentHome/AddHomeWork';
+        }, 2000);</script>
+    <h1 style="color:red">Unsuccessfull</h1>
+
+}
+else
+{
+<div onclick="location.href='https://localhost:44344/TeacherHome'">
+    <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+</div>
+    IEnumerable<CourseViewModel> courses = ViewData["Courses"] as IEnumerable<CourseViewModel>;
+<h3>Your Courses</h3>
+
+<div class="table-responsive" style="overflow-x: hidden;">
+        <table id="myTable" class="table-borderless" width="100%">
+            <thead>
+                <tr>
+                    <th>
+                        Course Id
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Starting Date
+                    </th>
+                    <th>
+                        Ending Date
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in courses)
+                {
+                    <tr>
+                        <td>
+                            @item.CourseId
+                        </td>
+                        <td>
+                            @item.CourseName
+                        </td>
+                        <td>
+                            @item.StartDate
+                        </td>
+                        <td>
+                            @item.EndDate
+                        </td>
+
+                    </tr>
+
+                }
+               
+            </tbody>
+        </table>
+</div>
+
+
+    <form name="myForm" asp-action="AddHomeWork" onsubmit="return validateForm()">
+        <div class="wrap">
+            <div class="panel">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" id="Description" class="form-control" />
+                    <label id="lblDescription" style="visibility:hidden;color:red;"></label>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Deadline" class="control-label"></label>
+                    <input asp-for="Deadline" id="Deadline" class="form-control" />
+                    <label id="lblDeadline" style="visibility:hidden;color:red;"></label>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LongDescription" class="control-label"></label>
+                    <input asp-for="LongDescription" id="LongDescription" class="form-control" />
+                    <label id="lblLongDescription" style="visibility:hidden;color:red;"></label>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="form-group">
+                    <label asp-for="ReqTime" class="control-label">Required Time (in hrs)</label>
+                    <input asp-for="ReqTime" id="ReqTime" class="form-control" />
+                    <label id="lblReqTime" style="visibility:hidden;color:red;"></label>
+                </div>
+                
+
+                <div class="form-group">
+                    <label class="control-label">Course Id</label>
+                    <input type="number" name="CourseId" id="CourseId" class="form-control" />
+                    <label id="l1" style="visibility:hidden;color:red;"></label>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn-outline-primary" />
+            </div>
+
+        </div>
+    </form>
+    @*<form asp-action="AddHomeWork">
+
+            <input type="number" name="CourseId" id="CourseId" placeholder="Id" class="form-control" width="20" required />
+            <input type="submit" value="Apply" class="btn btn-primary" />
+        </form>*@
+    }

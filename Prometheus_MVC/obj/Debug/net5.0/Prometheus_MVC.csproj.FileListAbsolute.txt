@@ -1,0 +1,350 @@
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.exe
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.deps.json
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.runtimeconfig.json
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.runtimeconfig.dev.json
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ref\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.Views.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.Views.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.AssemblyReference.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.AssemblyInfoInputs.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.AssemblyInfo.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.CoreCompileInputs.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorAssemblyInfo.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorAssemblyInfo.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\staticwebassets\Prometheus_MVC.StaticWebAssets.Manifest.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\staticwebassets\Prometheus_MVC.StaticWebAssets.xml
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\scopedcss\bundle\Prometheus_MVC.styles.css
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.TagHelpers.input.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.TagHelpers.output.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorCoreGenerate.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorTargetAssemblyInfo.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorTargetAssemblyInfo.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.Views.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.CopyComplete
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\ref\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.pdb
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.genruntimeconfig.cache
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Teachers\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Teachers\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Teachers\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Teachers\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\source\repos\Prometheus_2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Teachers\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.exe
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.deps.json
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.runtimeconfig.json
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.runtimeconfig.dev.json
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ref\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.Views.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Prometheus_MVC.Views.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.AssemblyReference.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.AssemblyInfoInputs.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.AssemblyInfo.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.CoreCompileInputs.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorAssemblyInfo.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorAssemblyInfo.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\staticwebassets\Prometheus_MVC.StaticWebAssets.Manifest.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\staticwebassets\Prometheus_MVC.StaticWebAssets.xml
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\scopedcss\bundle\Prometheus_MVC.styles.css
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.TagHelpers.input.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.TagHelpers.output.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorCoreGenerate.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorTargetAssemblyInfo.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.RazorTargetAssemblyInfo.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.Views.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.csproj.CopyComplete
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\ref\Prometheus_MVC.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.pdb
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Prometheus_MVC.genruntimeconfig.cache
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Courses\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Courses\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Courses\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Courses\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Homework\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Homework\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Homework\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Homework\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Homework\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Students\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\CourseViewModels\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\CourseViewModels\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\CourseViewModels\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\CourseViewModels\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\CourseViewModels\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\HomeworkViewModels\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\HomeworkViewModels\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\HomeworkViewModels\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\HomeworkViewModels\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\HomeworkViewModels\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentViewModels\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentViewModels\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentViewModels\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentViewModels\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentViewModels\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherViewModels\Create.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherViewModels\Delete.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherViewModels\Details.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherViewModels\Edit.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherViewModels\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentHome\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentHome\Login.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentHome\Courses.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentHome\ApplyCourse.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\Index.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\Login.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\Courses.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\AddHomeWork.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\Homeworks.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\StudentHome\Homework.cshtml.g.cs
+C:\Users\Navpreet Singh\Source\Repos\Prometheus 2.0\Prometheus_MVC\obj\Debug\net5.0\Razor\Views\TeacherHome\AssignCourse.cshtml.g.cs

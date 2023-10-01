@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Prometheus_MVC.Models.CourseViewModel>
+
+@{
+    ViewData["Title"] = "Courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    @@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+
+    table th, table td {
+        text-align: center;
+    }
+
+    th {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    .pagination li:hover {
+        cursor: pointer;
+    }
+</style>
+
+<h1>Courses</h1>
+<div onclick="location.href='https://localhost:44344/TeacherHome'">
+    <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+</div>
+<div class="tile">
+
+    <div class="table-responsive" style="overflow-x: hidden;">
+        <table id="myTable" class="table-borderless" width="100%" >
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CourseName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StartDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EndDate)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CourseName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StartDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EndDate)
+                    </td>
+                    
+                    <td>
+                        <a asp-action="Details" asp-controller="Courses" asp-route-id="@item.CourseId">Details</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+
+
+        </table>
+        </div>
+    </div>

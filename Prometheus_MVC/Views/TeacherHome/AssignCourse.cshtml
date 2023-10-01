@@ -1,0 +1,300 @@
+﻿
+@{
+    ViewData["Title"] = "AssignCourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    IEnumerable<TeacherViewModel> teacherList = ViewData["teachers"] as IEnumerable<TeacherViewModel>;
+    IEnumerable<CourseViewModel> courseList = ViewData["Courses"] as IEnumerable<CourseViewModel>;
+}
+ 
+<h1>Assign Course</h1>
+<br />
+<style>
+    @@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .wrap {
+        align-self: center;
+        margin: 50px auto 0 auto;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1200px;
+    }
+
+
+    .wrap2 {
+        align-self: center;
+        margin: 50px auto 0 auto;
+        width: 100%;
+        display: flex;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    .tile {
+        width: 500px;
+        height: 380px;
+        margin: 10px;
+        background-color: #99aeff;
+        background-image: linear-gradient(to bottom right,#0F2027, #2C5364);
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+        overflow: hidden;
+        color: white;
+        font-family: 'Roboto';
+    }
+
+        .tile img {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            transition: all 0.4s ease-out;
+        }
+
+        .tile .text {
+            /*   z-index:99; */
+            position: absolute;
+            padding: 30px;
+            height: calc(100% - 60px);
+        }
+
+ 
+
+    h1 {
+        background-image: linear-gradient(to bottom right,#0F2027, #2C5364);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        margin: 0;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .tile h1 {
+        background-image: linear-gradient(to bottom right,#D3CCE3, #E9E4F0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        margin: 0;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .tile h2 {
+        background-image: linear-gradient(to bottom right,#D3CCE3, #E9E4F0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 300;
+        margin: 20px 0 0 0;
+        font-style: italic;
+        transform: translateX(200px);
+    }
+
+    .tile p {
+        background-image: linear-gradient(to bottom right,#D3CCE3, #E9E4F0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        margin: 20px 0 0 0;
+        line-height: 25px;
+        /*   opacity:0; */
+        transform: translateX(-500px);
+        transition-delay: 0.2s;
+    }
+
+    .animate-text {
+        //opacity: 0;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .tile:hover {
+        /*   background-color:#99aeff; */
+        box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+        transform: scale(1.05);
+    }
+
+        .tile:hover img {
+            opacity: 0.2;
+        }
+
+        .tile:hover .animate-text {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+
+
+
+
+        .tile:hover span {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+
+
+    .btn {
+        width: 100%;
+        background: none;
+        border: 1px solid #697da3;
+        color: #D3CCE3;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 12px 16px;
+        position: relative;
+        text-transform: uppercase;
+        background: linear-gradient(to bottom right,#ee9ca7, #BB377D);
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-size: 100% 90px;
+        background-position: 0 -30px;
+        transition: all 0.2s linear;
+        border-radius: 20px;
+    }
+
+        .btn:Hover {
+            background-position: 0 0;
+        }
+
+    @@media (max-width: 1000px) {
+        .wrap {
+            flex-direction: column;
+            width: 400px;
+        }
+    }
+</style>
+<script>
+   
+    function validateForm() {
+        z = 0;
+        console.log("here")
+        document.getElementById("l1").style.visibility = "hidden";
+        document.getElementById("l1").innerHTML = "";
+        var x = document.forms["myForm"]["CourseId"].value;
+        var y = document.forms["myForm"]["TeacherId"].value;
+        //var deadline = document.getElementById("Deadline").value;
+        if (x.trim() == "") {
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter valid IDs"
+            z = 1;
+        }
+        if (y.trim() == "") {
+
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter valid IDs"
+            z = 1;
+        }
+        if (x < 2000 || x > 9999) {
+            var x = document.forms["myForm"]["CourseId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter valid IDs"
+            z = 1;
+        }
+        if (y < 1000 || y > 9999) {
+            var y = document.forms["myForm"]["TeacherId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter valid IDs"
+            z = 1;
+        }
+        console.log(z);
+        if (z == 1) {
+            return false;
+        }
+
+        else {
+            return true;
+        }
+    }
+
+
+</script>
+@if (ViewBag.Status == "Success")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/TeacherHome';
+        }, 2000);</script>
+    <h1 style="color:green">Successfull</h1>
+    <h6>Please wait while we re direct you....</h6>
+}
+else if (ViewBag.Status == "Unsuccessful")
+{ string msg = "Unsuccessfull please try again later";
+    if (ViewBag.Error == "SQL") { msg = "Already Assigned or Invalid IDs"; }
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/TeacherHome/AssignCourse';
+        }, 2000);</script>
+    <h1 style="color:red">@msg</h1>
+    <h6>Please wait while we re direct you....</h6>
+}
+else
+{
+<div onclick="location.href='https://localhost:44344/TeacherHome'">
+    <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+</div>
+<div class="wrap">
+    <div class="tile">
+        <table id="CourseTable" class="table-borderless" style="width:100%">
+            <tr>
+                <th>Course Id</th>
+                <th>Course name</th>
+            </tr>
+            @foreach (var item in courseList)
+            {
+                <tr>
+                    <td>@item.CourseId</td>
+                    <td>@item.CourseName</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="tile">
+        <table id="TeacherTable" class="table-borderless" style="width:100%">
+            <tr>
+                <th>Teacher Id</th>
+                <th>Teacher name</th>
+            </tr>
+            @foreach (var item in teacherList)
+            {
+                <tr>
+                    <td>@item.TeacherId</td>
+                    <td>@item.Fname @item.Lname</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<div class="wrap">
+    <div>
+        <form name="myForm" asp-action="AssignCourse" onsubmit="return validateForm()">
+            <input type="number" name="CourseId" id="CourseId" placeholder="Course ID" />
+            <input type="number" name="TeacherId" id="TeacherId" placeholder="Teacher ID" />
+            <input type="submit" value="Assign" class="btn-primary" />
+        </form>
+    </div>
+    <div>
+        <label id="l1" style="color:red;visibility:hidden;"></label>
+    </div>
+</div>
+}

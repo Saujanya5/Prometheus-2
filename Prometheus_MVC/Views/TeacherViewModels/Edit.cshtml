@@ -1,0 +1,178 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Prometheus_MVC.Models.TeacherViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .accordion {
+        background-image: linear-gradient(to bottom right,#0F2027, #2C5364);
+        color: #eee;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+</style>
+
+<h1>Edit Teacher Details</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <button class="accordion" type="button">Personal Information</button>
+
+            <div class="panel">
+
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="TeacherId" />
+                <div class="form-group">
+                    <label asp-for="Fname" class="control-label"></label>
+                    <input asp-for="Fname" class="form-control" />
+                    <span asp-validation-for="Fname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Lname" class="control-label"></label>
+                    <input asp-for="Lname" class="form-control" />
+                    <span asp-validation-for="Lname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="control-label"></label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+
+
+            </div>
+            <button class="accordion" type="button">Sensitive Information</button>
+
+            <div class="panel">
+
+                <div class="form-group">
+                    <label asp-for="Dob" class="control-label"></label>
+                    <input asp-for="Dob" class="form-control" />
+                    <span asp-validation-for="Dob" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MobileNo" class="control-label"></label>
+                    <input asp-for="MobileNo" class="form-control" />
+                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+                </div>
+            </div>
+            @if (@Context.Session.GetString("Role") == "Admin")
+            {
+                <button class="accordion" type="button">Privileges Section</button>
+
+                <div class="panel">
+
+                    <div class="form-group">
+                        <label asp-for="IsAdmin" class="control-label"></label>
+                        <input asp-for="IsAdmin" class="form-control" />
+                        <span asp-validation-for="IsAdmin" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="Status" class="control-label"></label>
+                        <input asp-for="Status" class="form-control" />
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+                </div>
+            }
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (ViewBag.Status == "Success")
+{
+    <h6 style="color:green"> Successfull</h6>
+    <br />
+    <div>
+        <a href="javascript:history.back(-2)">Go Back </a>
+    </div>
+}
+else if (ViewBag.Status == "Unsuccessfull")
+{
+    <h6 style="color:Red"> Something Went Wrong, please try again later</h6>
+    <br />
+    <div>
+        <a href="javascript:history.back(-2)">Go Back </a>
+    </div>
+}
+else
+{
+    <br />
+    <div>
+        <a href="javascript:history.back()">Go Back </a>
+    </div>
+}
+
+<br />
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

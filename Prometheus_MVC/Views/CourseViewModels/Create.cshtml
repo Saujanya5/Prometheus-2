@@ -1,0 +1,68 @@
+﻿@model Prometheus_MVC.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add new course</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="panel">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="CourseId" />
+                <div class="form-group">
+                    <label asp-for="CourseName" class="control-label"></label>
+                    <input asp-for="CourseName" class="form-control" />
+                    <span asp-validation-for="CourseName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StartDate" class="control-label"></label>
+                    <input asp-for="StartDate" class="form-control" />
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EndDate" class="control-label"></label>
+                    <input asp-for="EndDate" class="form-control" />
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (ViewBag.Status == "Success")
+{
+    <h6 style="color:green"> Successfull</h6>
+    <br />
+    <div>
+        <a href="javascript:history.back(-2)">Go Back </a>
+    </div>
+}
+else if (ViewBag.Status == "Unsuccessfull")
+{
+    <h6 style="color:Red"> Something Went Wrong, please try again later</h6>
+    <br />
+    <div>
+        <a href="javascript:history.back(-2)">Go Back </a>
+    </div>
+}
+else
+{
+    <br />
+    <div>
+        <a href="javascript:history.back()">Go Back </a>
+    </div>
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,225 @@
+﻿@model Prometheus_MVC.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .wrap {
+        align-self: center;
+        margin: 50px auto 0 auto;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1500px;
+    }
+
+    .tile {
+        width: 500px;
+        height: 380px;
+        margin: 10px;
+        background-color: #99aeff;
+        background-image: linear-gradient(to bottom right,#0F2027, #2C5364);
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+        overflow: hidden;
+        color: white;
+        font-family: 'Roboto';
+    }
+
+        .tile:hover {
+            /*   background-color:#99aeff; */
+            box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+            transform: scale(1.05);
+        }
+
+            .tile:hover img {
+                opacity: 0.2;
+            }
+
+    table th, table td {
+        text-align: center;
+    }
+
+    th {
+        background-color: #203A43;
+        color: #fff;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #3b6473;
+        color: #fff;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #fff;
+        color: #203A43;
+    }
+</style>
+<h1>Course Details</h1>
+
+<div class="wrap">
+    <div class="tile">
+        <h4>Course Details for ID: @Model.CourseId</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Name
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CourseName)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.StartDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.StartDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.EndDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.EndDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+            <dd class="col-sm-10">
+                @{ string value;}
+                @if (Convert.ToBoolean(Model.Status)) { value = "Active"; }
+                else { value = "Inactive"; }
+                @value
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <div>
+            @if (Model.Homework.Count() <= 0)
+            {
+                <h6 style="color: white; background-color: #203A43">No homeworks in this course</h6>
+            }
+            else
+            {
+
+                <h6 style="color: white; background-color: #203A43"> Homeworks in this course</h6>
+
+                <table class="table-hover" width="225px">
+                    <thead>
+                        <tr>
+                            <th>
+                                HW Given
+                            </th>
+                            <th>Given By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Homework)
+                        {
+                            string location = "https://localhost:44344/Homework/Details/" + Convert.ToInt32(item.HomeWorkId).ToString();
+                            <tr style="cursor: pointer;" onclick="location.href='@location'">
+                                <td>
+                                    @Convert.ToInt32(item.HomeWorkId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+        <br />
+        <div>
+            @if (Model.Teacher.Count() <= 0)
+            {
+                <h6 style="color: white; background-color: #203A43">No Teachers Assigned to this course</h6>
+            }
+            else
+            {
+                <h6 style="color: white; background-color: #203A43"> Teachers teaching this course</h6>
+
+                <table class="table-hover" width="225px">
+                    <thead>
+                        <tr>
+                            <th>
+                                Teacher ID
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            @*<th></th>*@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Teacher)
+                        {
+                            string location = "https://localhost:44344/Teacher/Details/" + Convert.ToInt32(item.TeacherId).ToString();
+                            <tr style="cursor: pointer;" onclick="location.href='@location'">
+                                <td>
+                                    @Convert.ToInt32(item.TeacherId)
+                                </td>
+                                <td>
+                                    @item.Fname @item.Lname
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+
+        <br />
+        <div>
+
+            @if (Model.Student.Count() <= 0)
+            {
+                <h6 style="color: white; background-color: #203A43">No student has enrolled yet</h6>
+            }
+            else
+            {
+                <h6 style="color: white; background-color: #203A43"> Students Enrolled to this course</h6>
+                <br />
+                <table class="table-hover" width="225px">
+                    <thead>
+                        <tr>
+                            <th>
+                                Student ID
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            @*<th></th>*@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Student)
+                        {
+                            string location = "https://localhost:44344/Student/Details/" + Convert.ToInt32(item.StudentId).ToString();
+                            <tr style="cursor: pointer;" onclick="location.href='@location'">
+                                <td>
+                                    @Convert.ToInt32(item.StudentId)
+                                </td>
+                                <td>
+                                    @item.Fname @item.Lname
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>
+<div>
+    <a href="javascript:history.back()">Go Back </a>
+</div>
+

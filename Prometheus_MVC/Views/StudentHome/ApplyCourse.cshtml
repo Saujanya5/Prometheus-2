@@ -1,0 +1,190 @@
+﻿
+@model List<Prometheus_MVC.Models.CourseViewModel>
+@{
+    ViewData["Title"] = "ApplyCourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    function validateForm() {
+        console.log("here")
+        document.getElementById("l1").style.visibility = "hidden";
+        var x = document.forms["myForm"]["CourseId"].value;
+        if (x.trim() == "") {
+            var x = document.forms["myForm"]["CourseId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        if (x < 2000 || x > 9999) {
+            var x = document.forms["myForm"]["CourseId"].value = "";
+            document.getElementById("l1").style.visibility = "visible";
+            document.getElementById("l1").innerHTML = "Please enter a valid Username"
+            z = 1;
+        }
+        var row = "";
+        z = 1;
+        for (let i = 0; i < document.getElementById("myTable").rows.length; i++) {
+            console.log(i);
+            console.log(x);
+            console.log(document.getElementById("myTable").rows[i].cells[0].innerHTML.trim());
+            if (x == document.getElementById("myTable").rows[i].cells[0].innerHTML.trim()) {
+                z = 0;
+                console.log("inside if");
+                break;
+            }
+            else {
+                document.getElementById("l1").style.visibility = "visible";
+                document.getElementById("l1").innerHTML = "Enter valid available course";
+                console.log("inside else");
+            }
+
+        }
+        if (z == 1) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+
+</script>
+<h1 >ApplyCourse</h1>
+
+@if (ViewBag.Status == "Successfull")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/StudentHome';
+        }, 2000);</script>
+    <h1 style="color:green">Successfull</h1>
+    <h6>Please wait while we re direct you....</h6>
+
+}
+else if (ViewBag.Status == "Unsuccessfull")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/StudentHome/ApplyCourse';
+        }, 4000);</script>
+    <h1 style="color:red">Unsuccessfull please try again later</h1>
+    <h6>Please wait while we re direct you....</h6>
+
+}
+else
+{
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+     
+
+        .tile {
+            width: 1000px;
+            margin: 10px;
+            background-color: #99aeff;
+            background-image: linear-gradient(to bottom right,#b92b27, #1565c0);
+            display: inline-block;
+            background-size: cover;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.4s ease-out;
+            box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+            overflow: hidden;
+            color: white;
+            font-family: 'Roboto';
+        }
+
+        .btn {
+            width: 50%;
+            background: none;
+            border: 2px solid #DC6180;
+            color: #DC6180;
+            padding: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 0px 10px;
+            position: relative;
+            text-transform: uppercase;
+            box-shadow: 0px 0px 8px 0px #000;
+            transition: all 0.5s ease-in-out;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                color: #fff;
+                background-color: #DC6180;
+                box-shadow: 0px 0px 0px #000;
+            }
+    </style>
+    <div onclick="location.href='https://localhost:44344/StudentHome'">
+        <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+    </div>
+    <h3 >Available Courses</h3>
+
+    <div class="tile">
+        <div class="table-responsive" style="overflow-x: hidden;">
+            <table id="myTable" class="table-borderless" width="100%" style="color:white;margin-left:40px;">
+                <thead>
+                    <tr>
+                        <th>
+                            Course Id
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Starting Date
+                        </th>
+                        <th>
+                            Ending Date
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Convert.ToInt32(item.CourseId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CourseName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.StartDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EndDate)
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="tile">
+        <br />
+        <br />
+        @*asp-action="ApplyCourse"*@
+        <form name="myForm" asp-action="ApplyCourse" onsubmit="return validateForm()">
+            <center><input type="number" name="CourseId" id="CourseId" placeholder="Enter CourseId" class="form-control" style="width:50%" /></center>
+            <center><label id="l1" style="visibility:hidden;color:red;">Please enter valid ID</label></center>
+            <center><input type="submit" value="Apply" class="btn" /></center>
+        </form>
+        <br />
+        <br />
+    </div>
+}

@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Prometheus_MVC.Models.HomeworkViewModel>
+
+@{
+    ViewData["Title"] = "Courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    @@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+
+    table th, table td {
+        text-align: center;
+    }
+
+    th {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #BEF2F5;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    .pagination li:hover {
+        cursor: pointer;
+    }
+</style>
+<h1 >Homeworks</h1>
+<div onclick="location.href='https://localhost:44344/TeacherHome'">
+    <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+</div>
+<div class="tile">
+    <br />
+    <br />
+    <center>
+        <div class="table-responsive" style="overflow-x: hidden;">
+
+            <table class="table-borderless" width="100%">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.HomeWorkId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Description)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Deadline)
+                        </th>
+                        
+                        <th>
+                            @Html.DisplayNameFor(model => model.ReqTime)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Convert.ToInt32(item.HomeWorkId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.Deadline)
+                            </td>
+                            
+                            <td>
+                                @Html.DisplayFor(model => item.ReqTime)
+                            </td>
+                            <td>
+                                <a asp-action="Details" asp-controller="Homework" asp-route-id="@item.HomeWorkId"><i class="fas fa-info-circle"></i></a>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+
+            </table>
+        </div>
+    </center>
+    <br />
+    <br />
+</div>

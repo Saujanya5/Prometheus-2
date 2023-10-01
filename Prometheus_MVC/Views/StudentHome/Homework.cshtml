@@ -1,0 +1,137 @@
+﻿@model IEnumerable<Prometheus_MVC.Models.HomeworkViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Status == "Error")
+{
+    <script>
+        window.setTimeout(function () {
+            window.location.href = 'https://localhost:44344/StudentHome';
+        }, 2000);
+    </script>
+    <center><h1 style="color:red">Some error occured please contact a staff member <br /> Redirecting to Student portal...... </h1></center>
+}
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+        a:hover {
+            color: aqua;
+            text-decoration: none;
+        }
+
+   
+
+    .tile {
+        width: 1050px;
+        margin: 10px;
+        background-color: #99aeff;
+        background-image: linear-gradient(to bottom right,#b92b27, #1565c0);
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+        box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+        overflow: hidden;
+        color: white;
+        font-family: 'Roboto';
+    }
+
+    .btn {
+        width: 50%;
+        background: none;
+        border: 2px solid #DC6180;
+        color: #DC6180;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0px 10px;
+        position: relative;
+        text-transform: uppercase;
+        box-shadow: 0px 0px 8px 0px #000;
+        transition: all 0.5s ease-in-out;
+        border-radius: 5px;
+    }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #DC6180;
+            box-shadow: 0px 0px 0px #000;
+        }
+</style>
+<h1>HomeWorks</h1>
+<div onclick="location.href='https://localhost:44344/StudentHome'">
+    <h4 style="cursor:pointer;color:gold"><i class="fas fa-chevron-circle-left"></i> Back</h4>
+</div>
+<div class="tile">
+    <br />
+    <br />
+    <div class="table-responsive" style="overflow-x: hidden;">
+
+        <table id="myTable" class="table-borderless" width="100%" style="color:white;margin-left:15px;">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Deadline)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ReqTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.LongDescription)
+                    </th>
+                    <th>
+                        Priority
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int x = 1; }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Deadline)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReqTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LongDescription)
+                        </td>
+                        <td>
+                            @x
+                        </td>
+                        <td>
+
+                            <a asp-action="Details" asp-controller="Homework" asp-route-id="@item.HomeWorkId">Details</a>
+
+                    </tr>
+                    x+= 1;
+                    
+                }
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <h5>@ViewBag.Plan</h5>
+    <br />
+</div>
